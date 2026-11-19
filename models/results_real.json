@@ -1,0 +1,174 @@
+{
+ "shape": [
+  1275,
+  15
+ ],
+ "missing_cells": 0,
+ "duplicate_rows": 0,
+ "rows_used": 1275,
+ "cpu_gen_missing": 229,
+ "price_summary": {
+  "count": 1275.0,
+  "mean": 1135.0,
+  "std": 700.8,
+  "min": 174.0,
+  "25%": 609.0,
+  "50%": 989.0,
+  "75%": 1496.5,
+  "max": 6099.0
+ },
+ "top_corr": {
+  "ram_gb": 0.74,
+  "ssd_gb": 0.67,
+  "res_w": 0.552,
+  "res_h": 0.549,
+  "ppi": 0.47,
+  "cpu_ghz": 0.429
+ },
+ "train_n": 1020,
+ "test_n": 255,
+ "rare_gpu_models": 65,
+ "gb_best_params": {
+  "subsample": 0.7,
+  "n_estimators": 300,
+  "min_samples_leaf": 5,
+  "max_depth": 4,
+  "learning_rate": 0.05
+ },
+ "model_table": [
+  {
+   "Model": "Gradient Boosting (tuned)",
+   "CV_R2_mean": 0.9038,
+   "CV_R2_std": 0.02,
+   "R2_price": 0.8878,
+   "R2_log": 0.9023,
+   "MAE": 161.7217,
+   "RMSE": 235.9626,
+   "MAPE": 14.0887
+  },
+  {
+   "Model": "Gradient Boosting (default)",
+   "CV_R2_mean": 0.8856,
+   "CV_R2_std": 0.0169,
+   "R2_price": 0.8656,
+   "R2_log": 0.8927,
+   "MAE": 176.0817,
+   "RMSE": 258.297,
+   "MAPE": 15.1532
+  },
+  {
+   "Model": "Random Forest",
+   "CV_R2_mean": 0.8856,
+   "CV_R2_std": 0.024,
+   "R2_price": 0.8544,
+   "R2_log": 0.8886,
+   "MAE": 176.5125,
+   "RMSE": 268.7879,
+   "MAPE": 14.6891
+  },
+  {
+   "Model": "Extra Trees",
+   "CV_R2_mean": 0.8645,
+   "CV_R2_std": 0.0275,
+   "R2_price": 0.859,
+   "R2_log": 0.8889,
+   "MAE": 177.0706,
+   "RMSE": 264.546,
+   "MAPE": 15.1187
+  },
+  {
+   "Model": "Ridge",
+   "CV_R2_mean": 0.8573,
+   "CV_R2_std": 0.0152,
+   "R2_price": 0.8208,
+   "R2_log": 0.8532,
+   "MAE": 210.8152,
+   "RMSE": 298.2074,
+   "MAPE": 18.4229
+  },
+  {
+   "Model": "Lasso",
+   "CV_R2_mean": 0.8516,
+   "CV_R2_std": 0.0126,
+   "R2_price": 0.8177,
+   "R2_log": 0.8485,
+   "MAE": 215.2021,
+   "RMSE": 300.843,
+   "MAPE": 18.8429
+  },
+  {
+   "Model": "Linear Regression",
+   "CV_R2_mean": 0.8487,
+   "CV_R2_std": 0.035,
+   "R2_price": 0.7896,
+   "R2_log": 0.8476,
+   "MAE": 221.3001,
+   "RMSE": 323.1245,
+   "MAPE": 18.8733
+  },
+  {
+   "Model": "Decision Tree",
+   "CV_R2_mean": 0.8113,
+   "CV_R2_std": 0.0254,
+   "R2_price": 0.7697,
+   "R2_log": 0.82,
+   "MAE": 223.7118,
+   "RMSE": 338.1036,
+   "MAPE": 19.2136
+  }
+ ],
+ "final_name": "Gradient Boosting (tuned)",
+ "final_metrics": {
+  "R2_price": 0.8878220298894712,
+  "R2_log": 0.902310369460922,
+  "MAE": 161.72165787529272,
+  "RMSE": 235.96256552660003,
+  "MAPE": 14.088747370346344
+ },
+ "final_cv_r2": [
+  0.9037918804217417,
+  0.02000504077774269
+ ],
+ "pct_err_within": {
+  "10": 47.05882352941176,
+  "15": 61.568627450980394,
+  "20": 74.50980392156863
+ },
+ "median_ape": 10.76598981824055,
+ "importance": {
+  "ram_gb": 0.2312,
+  "cpu_gen": 0.0527,
+  "ssd_gb": 0.0489,
+  "cpu_ghz": 0.0473,
+  "cpu_family": 0.0468,
+  "weight_kg": 0.0379,
+  "TypeName": 0.0293,
+  "Company": 0.0212,
+  "gpu_model": 0.0211,
+  "Inches": 0.0171,
+  "os_group": 0.0154,
+  "ppi": 0.0125,
+  "touch": 0.0043,
+  "GPU_Company": 0.0039,
+  "hdd_gb": 0.0037,
+  "res_w": 0.0035,
+  "flash_gb": 0.0033,
+  "gpu_dedicated": 0.0032,
+  "res_h": 0.0032,
+  "panel": 0.0005,
+  "CPU_Company": 0.0001,
+  "hybrid_gb": 0.0001,
+  "ips": -0.0
+ },
+ "margins_band": [
+  0.2044300857830172,
+  0.22125743381934201,
+  0.2555028505214732
+ ],
+ "band_edges_log": [
+  6.587939243529076,
+  7.151413291604313
+ ],
+ "coverage": 80.7843137254902,
+ "median_rel_width": 44.61342572670813
+}
