@@ -33,7 +33,7 @@ R = {}
 def save(name): plt.tight_layout(); plt.savefig(FIG / f"{name}.png", dpi=170); plt.close()
 
 # ---- 1. load & inspect
-raw = standardise(pd.read_csv(ROOT / "data" / "laptop_price_dataset.csv"))
+raw = standardise(pd.read_csv(ROOT / "data" / "laptop_price_dataset.csv", encoding="utf-8-sig"))
 R["shape"] = list(raw.shape); R["missing_cells"] = int(raw.isna().sum().sum()); R["duplicate_rows"] = int(raw.duplicated().sum())
 raw = raw.drop_duplicates().reset_index(drop=True)
 X_all = build_features(raw); y_all = np.log(raw["price_eur"].values)
