@@ -3,9 +3,6 @@
 Estimates a fair second-hand price range for a laptop from its specifications, age, condition and the platform it is sold on,
 and serves the result in a Streamlit web app.
 
-**Authors:** Kousthub S Kumar (NN25ISE114) and Neeraj Kumar (NN25ISE133)  
-3rd semester, Department of Information Science and Engineering
-
 ## What it does
 
 Enter a laptop's brand, type, screen, processor, RAM, graphics, storage and operating system, then its age, condition, battery health,
