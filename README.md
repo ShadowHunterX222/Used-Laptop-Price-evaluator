@@ -90,7 +90,6 @@ opened in a real Streamlit session by the authors of this repository. If a widge
 
 ## Data and credits
 
-- Real data: Kaggle *Laptop Price* dataset (`laptop_price - dataset.csv`). **Add the exact dataset URL, author and licence here before publishing.**
 - Report and methodology: see `docs/Used_Laptop_Price_Evaluator_Report.pdf`.
 
 ## Licence
