@@ -85,10 +85,6 @@ The evaluator and feature code were run end to end, and `app.py` was exercised w
 opened in a real Streamlit session by the authors of this repository. If a widget behaves differently in your Streamlit version, check
 `app.py` first (it uses only common widgets: selectbox, number_input, slider, radio, checkbox, metric, line_chart, bar_chart, dataframe).
 
-## Data and credits
-
-- Report and methodology: see `docs/Used_Laptop_Price_Evaluator_Report.pdf`.
-
 ## Licence
 
 Code: MIT (see `LICENSE`). The dataset keeps its own licence.
